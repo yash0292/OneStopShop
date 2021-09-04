@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Filter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel='stylesheet' href='https://unpkg.com/tailwindcss@1.8.9/dist/tailwind.min.css'>
+  <link rel="stylesheet" href="./style.css">
+ 
+</head>
+
+<style type="text/css">
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    padding-bottom: 15px;
+  }
+</style>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+     <div class="closebtn-fltr">
+        <h2>Filter</h2>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <hr>
+     </div>
+      <div class="dropdown-accordian">
+        <div id="accordion">
+        <div class="card">
+
+                <div class="card-header" id="heading-1">
+                  <div class="categories mb-0">
+                  <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1" class="">
+                      CATEGORIES
+                    </a>
+                  </div>
+                </div>
+
+                <div id="collapse-1" class="collapse in" data-parent="#accordion" aria-labelledby="heading-1">
+                  <div class="card-body">
+                    <div id="accordion-1">
+                      <div class="card">
+
+                        <div class="card-header" id="heading-1-1">
+                          <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+                              Bracelete
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapse-1-1" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-1">
+                          <div class="card-body">
+                            <div id="accordion-1-1">
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-1-1">
+                                          <a href="#">Bangle</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-1-2">
+                                        <a href="#">Channel Set</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-1-3">
+                                        <a href="#">Fashion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-1-3">
+                                        <a href="#">Interlock</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-1-3">
+                                        <a href="#">Pride</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-1-3">
+                                        <a href="#">Tennis</a>
+                                      </div>
+                                    </div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="heading-1-2">
+                          <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+                              Brooch
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapse-1-2" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-2">
+                          <div class="card-body">
+                            <div id="accordion-1-2">
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-2-1">
+                                          <a href="#">Butterfly</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-2-2">
+                                        <a href="#">Fashion</a>
+                                      </div>
+                                    </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="heading-1-3">
+                          <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
+                              Earring
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapse-1-3" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-3">
+                          <div class="card-body">
+                            <div id="accordion-1-3">
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-1">
+                                          <a href="#">Climbers</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-2">
+                                        <a href="#">Dangling</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-3">
+                                          <a href="#">Drop</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-4">
+                                        <a href="#">Fashion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-5">
+                                          <a href="#">Halo</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-6">
+                                        <a href="#">Hoop</a>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-2">
+                                        <a href="#">Jacket</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-3">
+                                          <a href="#">Journey</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-4">
+                                        <a href="#">Solitaire</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-5">
+                                          <a href="#">Studs</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-3-6">
+                                        <a href="#">Three Circle</a>
+                                      </div>
+                                    </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="heading-1-4">
+                          <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-4" aria-expanded="false" aria-controls="collapse-1-4">
+                              Necklace
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapse-1-4" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-4">
+                          <div class="card-body">
+                            <div id="accordion-1-4">
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-4-1">
+                                          <a href="#">Fashion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-4-2">
+                                        <a href="#">Multi-Color</a>
+                                      </div>
+                                    </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="heading-1-5">
+                          <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-5" aria-expanded="false" aria-controls="collapse-1-5">
+                              Pendant
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapse-1-5" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-5">
+                          <div class="card-body">
+                            <div id="accordion-1-5">
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-1">
+                                          <a href="#">Ball</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-2">
+                                        <a href="#">Circle</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-3">
+                                          <a href="#">Cocktail</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-4">
+                                        <a href="#">Cross</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-5">
+                                          <a href="#">Dangling</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-6">
+                                        <a href="#">Drop</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-7">
+                                          <a href="#">Fashion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-8">
+                                        <a href="#">Halo</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-9">
+                                          <a href="#">Heart</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-10">
+                                        <a href="#">Journey</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-11">
+                                          <a href="#">Lotus CoLors</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-12">
+                                        <a href="#">Medallion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-13">
+                                          <a href="#">Multi-Color</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-14">
+                                        <a href="#">Pear Shape</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-5-15">
+                                          <a href="#">Solitaire</a>
+                                      </div>
+                                    </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="heading-1-6">
+                          <h5 class="mb-0">
+                          <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-6" aria-expanded="false" aria-controls="collapse-1-6">
+                              Bracelete
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapse-1-6" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-6">
+                          <div class="card-body">
+                            <div id="accordion-1-6">
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-1">
+                                          <a href="#">Bangle</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-2">
+                                        <a href="#">Channel Set</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-3">
+                                          <a href="#">Ball</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-4">
+                                        <a href="#">Circle</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-5">
+                                          <a href="#">Cocktail</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-6">
+                                        <a href="#">Cross</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-7">
+                                          <a href="#">Dangling</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-8">
+                                        <a href="#">Drop</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-9">
+                                          <a href="#">Fashion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-10">
+                                        <a href="#">Halo</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-11">
+                                          <a href="#">Heart</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-12">
+                                        <a href="#">Journey</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-13">
+                                          <a href="#">Lotus CoLors</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-14">
+                                        <a href="#">Medallion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-15">
+                                          <a href="#">Multi-Color</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-16">
+                                        <a href="#">Pear Shape</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-17">
+                                          <a href="#">Solitaire</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-18">
+                                          <a href="#">Heart</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-19">
+                                        <a href="#">Journey</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-20">
+                                          <a href="#">Lotus CoLors</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-21">
+                                        <a href="#">Medallion</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-22">
+                                          <a href="#">Multi-Color</a>
+                                      </div>
+                                    </div>
+
+                                     <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-23">
+                                        <a href="#">Pear Shape</a>
+                                      </div>
+                                    </div>
+
+                                    <div class="card">
+                                      <div class="card-header-1" id="heading-1-6-24">
+                                          <a href="#">Solitaire</a>
+                                      </div>
+                                    </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+        </div>
+      </div>
+      <hr>
+      </div>
+
+
+  <section class="size-section">
+    <div class="size">
+      <div class="accordion" id="accordionExample">
+        <div class="item">
+           <div class="item-header" id="headingOne">
+              <h2 class="mb-0">
+                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Size
+                 <i class="fas fa-chevron-down"></i>
+                 </button>
+              </h2>
+           </div>
+           <div id="collapseOne" class="collapse in" aria-labelledby="headingOne"
+              data-parent="#accordionExample">
+             
+              <!-- Section: Condition -->
+
+              <div class="form-section">
+                <div class="form-check">
+      <input type="checkbox" class="filter-option form-check-input filled-in" condition="10" id="10"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="10">10</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="10.25" type="checkbox" class="filter-option form-check-input filled-in" id=" 10.25"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="10.25">10.25</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="11" type="checkbox" class="filter-option form-check-input filled-in" id=" 11"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="11">11</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="14K" type="checkbox" class="filter-option form-check-input filled-in" 
+      id="14K"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="14K">14K
+        </label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="filter-option form-check-input filled-in" condition=" 5" id=" 5"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for=" 5"> 5</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="5.5" type="checkbox" class="filter-option form-check-input filled-in" 
+      id="  5.5"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="5.5">5.5</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="6" type="checkbox" class="filter-option form-check-input filled-in" id=" 6"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="6">6</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="6.5" type="checkbox" class="filter-option form-check-input filled-in" 
+      id="6.5"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="6.5">6.5
+        </label>
+    </div>
+
+    <div class="form-check">
+      <input condition="7" type="checkbox" class="filter-option form-check-input filled-in" id=" 7"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="7">7</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="8" type="checkbox" class="filter-option form-check-input filled-in" 
+      id="8"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="8">8
+        </label>
+    </div>
+
+    <div class="form-check">
+      <input condition="8.5" type="checkbox" class="filter-option form-check-input filled-in" id="8.5"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="8.5">8.5</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="9" type="checkbox" class="filter-option form-check-input filled-in" 
+      id="9"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="9">9
+        </label>
+    </div>
+
+    <div class="form-check">
+      <input condition="9.5" type="checkbox" class="filter-option form-check-input filled-in" id="9.5"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="9.5"> 9.5</label>
+    </div>
+
+    <div class="form-check">
+      <input condition="Std." type="checkbox" class="filter-option form-check-input filled-in" 
+      id="Std."/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="Std.">Std.
+        </label>
+    </div>
+              </div>
+    
+
+
+  <!-- Section: Condition -->
+
+          
+           </div>
+    </div>
+ 
+
+  
+    </div> 
+    <hr>      
+  </section>
+
+
+  <section class="Diamond-color">
+    <div class="Dia-color">
+      <div class="accordion" id="accordionExample">
+        <div class="item">
+           <div class="item-header" id="headingtwo">
+              <h2 class="mb-0">
+                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                    data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                DIAMOND COLOR
+                <i class="fas fa-chevron-down"></i>
+                 </button>
+              </h2>
+           </div>
+           <div id="collapsetwo" class="collapse in" aria-labelledby="headingtwo"
+              data-parent="#accordionExample">
+             
+              <!-- Section: Condition -->
+
+              <div class="form-section">
+                <div class="form-check">
+      <input type="checkbox" class="filter-option form-check-input filled-in" condition="Black" 
+      id=" Black"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="Black">Black</label>
+    </div>
+
+            <div class="form-check">
+              <input condition="Blue" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="Blue"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Blue">Blue</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Cognac" type="checkbox" class="filter-option form-check-input filled-in" id="Cognac"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Cognac"> Cognac</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Green" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="Green"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Green">Green
+                </label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="filter-option form-check-input filled-in" condition="Mixed" id="Mixed"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Mixed"> 
+              Mixed</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Multi-Color" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="Multi-Color"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Multi-Color"> Multi-Color</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Pink" type="checkbox" class="filter-option form-check-input filled-in"
+               id="Pink"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Pink">Pink
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Purple" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="Purple"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Purple"> Purple
+                </label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Rose" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="Rose"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Rose">Rose
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input condition="ROYAL BLUE" type="checkbox" class="filter-option form-check-input filled-in" id="ROYAL BLUE"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="ROYAL BLUE"> ROYAL BLUE</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="White" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="White"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="White">White
+                </label>
+            </div>
+        </div>    
+      </div>
+    </div>
+ 
+
+  
+    </div> 
+    <hr>      
+  </section>
+
+  <section class="metal-color">
+    <div class="met-color">
+      <div class="accordion" id="accordionExample">
+        <div class="item">
+           <div class="item-header" id="headingthree">
+              <h2 class="mb-0">
+                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                    data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                METAL COLOR
+                <i class="fas fa-chevron-down"></i>
+                 </button>
+              </h2>
+           </div>
+           <div id="collapsethree" class="collapse in" aria-labelledby="headingthree"
+              data-parent="#accordionExample">
+             
+              <!-- Section: Condition -->
+
+              <div class="form-section">
+                <div class="form-check">
+      <input type="checkbox" class="filter-option form-check-input filled-in" condition="Multi Color" 
+      id="Multi Color"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="Multi Color"> Multi Color</label>
+    </div>
+
+            <div class="form-check">
+              <input condition="Rose" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="Rose"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Rose">Rose</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="Two Tone" type="checkbox" class="filter-option form-check-input filled-in" id="Two Tone"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Two Tone"> Two Tone</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="White" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="White"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="White">White
+                </label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="filter-option form-check-input filled-in" condition=" Yellow" id=" Yellow"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for=" Yellow"> 
+               Yellow</label>
+            </div>
+
+        </div>    
+      </div>
+    </div>
+ 
+
+  
+    </div> 
+    <hr>      
+  </section>
+
+  <section class="metal-grade">
+    <div class="met-grade">
+      <div class="accordion" id="accordionExample">
+        <div class="item">
+           <div class="item-header" id="headingfour">
+              <h2 class="mb-0">
+                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                    data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                METAL GRADE
+                <i class="fas fa-chevron-down"></i>
+                 </button>
+              </h2>
+           </div>
+           <div id="collapsefour" class="collapse in" aria-labelledby="headingfour"
+              data-parent="#accordionExample">
+             
+              <!-- Section: Condition -->
+
+              <div class="form-section">
+                <div class="form-check">
+      <input type="checkbox" class="filter-option form-check-input filled-in" condition="14K" 
+      id="14K"/>
+      <label class="form-check-label small text-uppercase card-link-secondary" for="14K">14K</label>
+    </div>
+
+            <div class="form-check">
+              <input condition="18K" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="18K"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="18K">18K</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="6" type="checkbox" class="filter-option form-check-input filled-in" id="6"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="6"> 6</label>
+            </div>
+
+            <div class="form-check">
+              <input condition="9K" type="checkbox" class="filter-option form-check-input filled-in" 
+              id="9K"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="9K">9K
+                </label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="filter-option form-check-input filled-in" condition="  Platinum" id="  Platinum"/>
+              <label class="form-check-label small text-uppercase card-link-secondary" for="Platinum"> 
+              Platinum</label>
+            </div>
+            
+        </div>    
+      </div>
+    </div>
+ 
+
+  
+    </div> 
+    <hr>      
+  </section>
+
+
+  <section class="range-slider">
+    <h5 class="text-center">PRICE RANGE</h5>
+          <div class="h-screen">
+        <div x-data="range()" x-init="mintrigger(); maxtrigger()" class="relative max-w-xl w-full">
+          <div>
+            <input type="range" step="100" x-bind:min="min" x-bind:max="max" x-on:input="mintrigger" x-model="minprice" class="absolute pointer-events-none appearance-none z-20 h-2 w-full opacity-0 cursor-pointer">
+
+            <input type="range" step="100" x-bind:min="min" x-bind:max="max" x-on:input="maxtrigger" x-model="maxprice" class="absolute pointer-events-none appearance-none z-20 h-2 w-full opacity-0 cursor-pointer">
+
+            <div class="relative z-10 h-2">
+
+              <div class="absolute z-10 left-0 right-0 bottom-0 top-0 rounded-md bg-gray-200"></div>
+
+              <div class="absolute z-20 top-0 bottom-0 rounded-md bg-green-300" x-bind:style="'right:'+maxthumb+'%; left:'+minthumb+'%'"></div>
+
+              <div class="absolute z-30 w-6 h-6 top-0 left-0 bg-green-300 rounded-full -mt-2" x-bind:style="'left: '+minthumb+'%'"></div>
+
+              <div class="absolute z-30 w-6 h-6 top-0 right-0 bg-green-300 rounded-full -mt-2" x-bind:style="'right: '+maxthumb+'%'"></div>
+
+            </div>
+
+          </div>
+
+            <div class="flex items-center justify-between pt-5 space-x-4 text-sm text-gray-700">
+              <div class="slider">
+                <input type="text" maxlength="5" x-on:input.debounce="mintrigger" x-model="minprice"
+                  wire:model.debounce.300="minPrice"
+                  class="w-24 px-3 py-2 text-center border border-gray-200 rounded-lg bg-gray-50 focus:border-yellow-400 focus:outline-none">
+              </div>
+              <div>
+                <input type="text" maxlength="5" x-on:input.debounce.300="maxtrigger" x-model="maxprice"
+                  wire:model.debounce="maxPrice"
+                  class="w-24 px-3 py-2 text-center border border-gray-200 rounded-lg bg-gray-50 focus:border-yellow-400 focus:outline-none">
+              </div>
+            </div>
+
+        </div>
+  </section>
+
+
+
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">Filter<i class="fa fa-sliders" aria-hidden="true"></i></button>  
+  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "350px";
+  document.getElementById("main").style.marginLeft = "350px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+
+
+      function range() {
+      return {
+        minprice: 260,
+        maxprice: 40600,
+        min: 20,
+        max: 40600,
+        minthumb: 0,
+        maxthumb: 0,
+        mintrigger() {
+          this.validation();
+          this.minprice = Math.min(this.minprice, this.maxprice - 500);
+          this.minthumb = ((this.minprice - this.min) / (this.max - this.min)) * 100;
+        },
+        maxtrigger() {
+          this.validation();
+          this.maxprice = Math.max(this.maxprice, this.minprice + 200);
+          this.maxthumb = 100 - (((this.maxprice - this.min) / (this.max - this.min)) * 100);
+        },
+        validation() {
+          if (/^\d*$/.test(this.minprice)) {
+            if (this.minprice > this.max) {
+              this.minprice = 9500;
+            }
+            if (this.minprice < this.min) {
+              this.minprice = this.min;
+            }
+          } else {
+            this.minprice = 0;
+          }
+          if (/^\d*$/.test(this.maxprice)) {
+            if (this.maxprice > this.max) {
+              this.maxprice = this.max;
+            }
+            if (this.maxprice < this.min) {
+              this.maxprice = 200;
+            }
+          } else {
+            this.maxprice = 10000;
+          }
+        }
+      }
+    }
+ 
+</script>
+  
+  <script src="https://kit.fontawesome.com/7986f27436.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <script  src="./script.js"></script>
+</body>
+</html>
